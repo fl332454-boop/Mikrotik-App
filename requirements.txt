@@ -1,1 +1,4 @@
 routeros-api
+certifi
+urllib3
+idna
