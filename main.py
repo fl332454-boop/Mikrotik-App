@@ -1,5 +1,10 @@
 import flet as ft
+import certifi
+import urllib3
+import idna
+import charset_normalizer
 from mikrotik_client import MikrotikClient
+
 
 def main(page: ft.Page):
     page.title = "مدير الهوت سبوت - مايكروتك"
